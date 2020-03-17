@@ -1,5 +1,4 @@
 # Postfix Domain Reject
-## Sengrid
 Place the following in main.cf
 ```cf
 smtpd_sender_restrictions = check_sender_access hash:/etc/postfix/sender_access

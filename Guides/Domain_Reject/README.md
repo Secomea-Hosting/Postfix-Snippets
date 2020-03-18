@@ -3,7 +3,7 @@ Place the following in main.cf
 ```cf
 smtpd_sender_restrictions = check_sender_access hash:/etc/postfix/sender_access
 ```
-Place the following in sender_access (Replace {domain} with the domain you want to block)
+Place the following in /etc/postfix/sender_access (Replace {domain} with the domain you want to block)
 ```cf
 {domain} REJECT
 ```

@@ -3,7 +3,7 @@ Place the following in main.cf
 ```cf
 sender_canonical_maps = hash:/etc/postfix/canonical
 ```
-Place the following in canonical (Replace {domain1} with the domain you want to change and {domain2} with the domain you want to change to)
+Place the following in /etc/postfix/canonical (Replace {domain1} with the domain you want to change and {domain2} with the domain you want to change to)
 ```cf
 @{domain1}    @{domain2}
 ```

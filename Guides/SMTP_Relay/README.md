@@ -10,7 +10,7 @@ smtp_tls_security_level = encrypt
 header_size_limit = 4096000
 relayhost = [smtp.sendgrid.net]:587
 ```
-Place the following in sasl_passwd (Replace {key} with the API Key)
+Place the following in /etc/postfix/sasl_passwd (Replace {key} with the API Key)
 ```cf
 [smtp.sendgrid.net]:587 apikey:{key}
 ```
